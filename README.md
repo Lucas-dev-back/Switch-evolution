@@ -1,18 +1,18 @@
-## Getting Started
+## Fala Dev!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem vindo ao meu humilde repositório :)
 
-## Folder Structure
+## Sobre as configurações
 
-The workspace contains two folders by default, where:
+Para rodar esse projeto sem correr o risco de erro quando for buildar,
+é necessário utilizar:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `Java 14+`: instalado na sua máquina
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Todos os arquivos .java estão no src
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Se você quiser contribuir para a evolução do código, pode ir em frente.
 
-## Dependency Management
+## Sobre as dependências
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Não há nenhuma dependência externa, tudo foi elaborado com Java Puro
