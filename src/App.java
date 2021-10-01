@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println(mensagemNoob(Constantes.QUINTA));
+        System.out.println(mensagemNoob(Constantes.SEXTA));
+        System.out.println(mensagemIntermediario(Constantes.SEXTA));
+        System.out.println(mensagemAvancado(Constantes.SEXTA));
     }
 
     public static String mensagemNoob(Constantes constante) {
@@ -41,11 +43,11 @@ public class App {
     }
 
     public static String mensagemAvancado(Constantes constante) {
-        switch (constante) {
+        return switch (constante) {
             case SEGUNDA, TERÇA, QUARTA, QUINTA, SEXTA -> "DIA ÚTIL";
             case SABADO, DOMINGO -> "TÁ LIVRE";
             default -> "TÁ INVENTANDO MODA";
-        }
+        };
     }
 
 }
